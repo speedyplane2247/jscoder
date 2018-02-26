@@ -4,6 +4,7 @@ jsCoder
 Client Backend, under MIT license.
 */
 function encode() {
+var decodedURI = document.getElementById("decode");
 var decodedURI = input; // input comes 
 var encodedURI = encodeURI(decodedURI);
 }
