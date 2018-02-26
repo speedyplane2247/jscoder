@@ -7,6 +7,7 @@ function encode() {
 var decodedURI = document.getElementById("decode");
 var decodedURI = input; // input comes 
 var encodedURI = encodeURI(decodedURI);
+document.getElementByID("outputEncoded").innerHTML = "Encoded URI: " + encodedURI
 }
 function decode() {
   // tbd
